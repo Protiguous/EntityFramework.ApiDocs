@@ -61,9 +61,8 @@
             The task result contains <c>true</c> if every element of the source sequence passes the test in the specified predicate; otherwise, <c>false</c>.
             </returns>
         <remarks>
-            Multiple active operations on the same context instance are not supported.  Use 'await' to ensure
-            that any asynchronous operations have completed before calling another method on this context.
-            </remarks>
+            Multiple active operations on the same context instance are not supported.  Use 'await' to ensure that any asynchronous operations have completed before calling another method on this context.
+        </remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="source" />
             or
